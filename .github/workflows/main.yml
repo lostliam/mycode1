@@ -27,7 +27,7 @@ jobs:
         
     - name: test
       env:
-        DATA: ${{ secrets.LYMG}}
+        LYMG: ${{secrets.LYMG}}
       run: |
         python3 warp.py 
 
