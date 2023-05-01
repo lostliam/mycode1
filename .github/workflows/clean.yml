@@ -11,4 +11,5 @@ jobs:
     steps:
       - name: Delete workflow runs
         uses: GitRML/delete-workflow-runs@main
-
+        with:
+          retain_days: 0
