@@ -1,5 +1,6 @@
 import os,time,requests,random,json
-
+import warnings
+warnings.filterwarnings('ignore')
 alldata=json.loads(os.getenv('LYMG'))
 
 
