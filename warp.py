@@ -32,7 +32,7 @@ def slogin():
         # print(r.text)
         a=json.loads(r.text)
         print(a['msg'])
-        testsentemail(str(random.randint(1,100))+str(random.randint(1,100))+a['msg']+str(random.randint(1,100))+str(random.randint(1,100)))
+        testsentemail(str(random.randint(2,100))+str(random.randint(1,100))+a['msg']+str(random.randint(1,100))+str(random.randint(1,100)))
     except:
         time.sleep(10)
         slogin()
