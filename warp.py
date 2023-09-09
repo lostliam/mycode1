@@ -39,6 +39,6 @@ def slogin():
 
 number=random.randint(1,100)
 print(number)
-if number>45:
+if number>44:
     slogin()
 
